@@ -1,0 +1,33 @@
+html,
+body {
+  background-color: rgb(39, 37, 37);
+  font-family: monospace;
+}
+
+.camp input:focus {
+  background-color: rgb(27, 26, 26);
+  color: white;
+}
+
+hr {
+  color: rgb(41, 207, 35);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: rgb(41, 207, 35);
+  text-align: center;
+}
+
+.container a,
+.form-label,
+.form-text {
+  font-size: 1.25rem;
+  display: flex inline;
+  color: rgb(41, 207, 35);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
